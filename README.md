@@ -51,8 +51,8 @@ dogd = get_DoGD(object_mask, device=device)
 The hyperparameters of these metrics ($r$ for CPR, and $a$ and $b$ for DoGD) can also be adjusted from their default values, as shown below.
 
 ```python
-cpr = get_CPR(object_mask, a=63, b=5, device=device)
-dogd = get_DoGD(object_mask, rad=7, device=device)
+dogd = get_CPR(object_mask, rad=7, device=device)
+cpr = get_DoGD(object_mask, a=63, b=5, device=device)
 ```
 
 ### Textural Contrast/Separability Metrics
