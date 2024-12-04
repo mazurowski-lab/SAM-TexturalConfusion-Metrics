@@ -19,10 +19,7 @@ In our paper, *Quantifying the Limits of Segment Anything Model: Analyzing Chall
 
 ## Citation
 
-Please cite our paper if you use our code or reference our work:
-```bib
-
-```
+Please cite our paper if you use our code or reference our work: TO BE ADDED
 
 ## 1) Installation
 Please run `pip3 install -r requirements.txt` to install the required packages.
