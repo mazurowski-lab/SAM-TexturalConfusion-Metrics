@@ -11,7 +11,7 @@ arXiv paper link: to be added
 
 [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) has shown extensive promise in segmenting objects from a wide range of contexts unseen in training, yet still has surprising trouble with certain types of objects such as those with dense, tree-like structures, or low textural contrast with their surroundings.
 
-In our paper, *Quantifying the Limits of Segment Anything Model: Analyzing Challenges in Segmenting Tree-Like and Low-Contrast Structures*, we propose metrics that quantify the tree-likeness and textural contrast of objects, and show that SAM's ability to segment these objects is noticeably correlates with these metrics (see below). This codebase provides the code to easily calculate these metrics.
+In our paper, *Quantifying the Limits of Segment Anything Model: Analyzing Challenges in Segmenting Tree-Like and Low-Contrast Structures*, we propose metrics that quantify the tree-likeness and textural contrast of objects, and show that SAM's ability to segment these objects is noticeably correlates with these metrics (see below). **This codebase provides the code to easily calculate these metrics.**
 
 <p align="center">
   <img src='https://github.com/mazurowski-lab/segmentation-metrics/blob/main/figs/corr.png' width='75%'>
