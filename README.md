@@ -44,7 +44,7 @@ import torch
 device = "cuda" # or "cpu"
 
 object_mask = torch.load('path/to/your/mask.pt')
-assert object_mask.ndim == 4
+assert object_mask.ndim == 3
 # ^ ! mask needs to be of shape (1, H, W)
 ```
 
