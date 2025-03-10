@@ -9,9 +9,9 @@ arXiv paper link: [![arXiv Paper](https://img.shields.io/badge/arXiv-2412.04243-
   <img src='https://github.com/mazurowski-lab/segmentation-metrics/blob/main/figs/teaser.png' width='75%'>
 </p>
 
-[Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) has shown extensive promise in segmenting objects from a wide range of contexts unseen in training, yet still has surprising trouble with certain types of objects such as those with dense, tree-like structures, or low textural contrast with their surroundings.
+[Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) and segmentation foundation models (SFMs) like it have shown extensive promise in segmenting objects from a wide range of contexts unseen in training, yet still has surprising trouble with certain types of objects such as those with dense, tree-like structures, or low textural contrast with their surroundings.
 
-In our paper, [*Quantifying the Limits of Segment Anything Model: Analyzing Challenges in Segmenting Tree-Like and Low-Contrast Structures*](https://arxiv.org/abs/2412.04243), we propose metrics that quantify the tree-likeness and textural contrast of objects, and show that SAM's ability to segment these objects is noticeably correlates with these metrics (see below). **This codebase provides the code to easily calculate these metrics.**
+In our paper, [*Quantifying the Limits of Segmentation Foundation Models: Modeling Challenges in Segmenting Tree-Like and Low-Contrast Objects*](https://arxiv.org/abs/2412.04243), we propose metrics that quantify the tree-likeness and textural contrast of objects, and show that the ability of SFMs (SAM, SAM 2, HQ-SAM) to segment these objects noticeably correlates with these metrics (see below). **This codebase provides the code to easily calculate these metrics.**
 
 <p align="center">
   <img src='https://github.com/mazurowski-lab/segmentation-metrics/blob/main/figs/corr.png' width='75%'>
@@ -22,7 +22,7 @@ In our paper, [*Quantifying the Limits of Segment Anything Model: Analyzing Chal
 Please cite our paper if you use our code or reference our work:
 ```bib
 @article{zhang2024texturalconfusion,
-      title={Quantifying the Limits of Segment Anything Model: Analyzing Challenges in Segmenting Tree-Like and Low-Contrast Structures}, 
+      title={Quantifying the Limits of Segmentation Foundation Models: Modeling Challenges in Segmenting Tree-Like and Low-Contrast Objects}, 
       author={Yixin Zhang and Nicholas Konz and Kevin Kramer and Maciej A. Mazurowski},
       year={2024},
       eprint={2412.04243},
