@@ -1,4 +1,4 @@
-# Quantifying the Limits of Segment Anything Model for Tree-like and Low-Contrast Objects
+# [WACV 2026] Quantifying Challenging Objects for Semantic Segmentation
 
 #### By [Yixin Zhang*](https://scholar.google.com/citations?user=qElWNMwAAAAJ&hl=en). [Nicholas Konz*](https://nickk124.github.io/), Kevin Kramer, and [Maciej Mazurowski](https://sites.duke.edu/mazurowski/).
 **(*= equal contribution)**
