@@ -7,7 +7,7 @@
 arXiv paper link: [![arXiv Paper](https://img.shields.io/badge/arXiv-2412.04243-orange.svg?style=flat)](https://arxiv.org/abs/2412.04243)
 
 <p align="center">
-  <img src='https://github.com/mazurowski-lab/segmentation-metrics/blob/main/figs/teaser.png' width='75%'>
+  <img src='https://github.com/mazurowski-lab/segmentation-metrics/blob/main/figs/teaser.jpg' width='75%'>
 </p>
 
 [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) and segmentation foundation models (SFMs) like it (e.g., HQSAM, SAM 2) have shown extensive promise in segmenting objects from a wide range of contexts unseen in training, yet still has surprising trouble with certain types of objects such as those with dense, tree-like structures, or low textural contrast with their surroundings.
