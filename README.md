@@ -1,4 +1,5 @@
 # [WACV 2026] Quantifying Challenging Objects for Semantic Segmentation
+### NEWS: 🎉 Our paper has been accepted to WACV 2026!
 
 #### By [Yixin Zhang*](https://scholar.google.com/citations?user=qElWNMwAAAAJ&hl=en). [Nicholas Konz*](https://nickk124.github.io/), Kevin Kramer, and [Maciej Mazurowski](https://sites.duke.edu/mazurowski/).
 **(*= equal contribution)**
@@ -9,7 +10,7 @@ arXiv paper link: [![arXiv Paper](https://img.shields.io/badge/arXiv-2412.04243-
   <img src='https://github.com/mazurowski-lab/segmentation-metrics/blob/main/figs/teaser.png' width='75%'>
 </p>
 
-[Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) and segmentation foundation models (SFMs) like it have shown extensive promise in segmenting objects from a wide range of contexts unseen in training, yet still has surprising trouble with certain types of objects such as those with dense, tree-like structures, or low textural contrast with their surroundings.
+[Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) and segmentation foundation models (SFMs) like it (e.g., HQSAM, SAM 2) have shown extensive promise in segmenting objects from a wide range of contexts unseen in training, yet still has surprising trouble with certain types of objects such as those with dense, tree-like structures, or low textural contrast with their surroundings.
 
 In our paper, [*Quantifying the Limits of Segmentation Foundation Models: Modeling Challenges in Segmenting Tree-Like and Low-Contrast Objects*](https://arxiv.org/abs/2412.04243), we propose metrics that quantify the tree-likeness and textural contrast of objects, and show that the ability of SFMs (SAM, SAM 2, HQ-SAM) to segment these objects noticeably correlates with these metrics (see below). **This codebase provides the code to easily calculate these metrics.**
 
