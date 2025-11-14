@@ -14,21 +14,20 @@ arXiv paper link: [![arXiv Paper](https://img.shields.io/badge/arXiv-2412.04243-
 
 In our paper, [*Quantifying the Limits of Segmentation Foundation Models: Modeling Challenges in Segmenting Tree-Like and Low-Contrast Objects*](https://arxiv.org/abs/2412.04243), we propose metrics that quantify the tree-likeness and textural contrast of objects, and show that the ability of SFMs (SAM, SAM 2, HQ-SAM) to segment these objects noticeably correlates with these metrics (see below). **This codebase provides the code to easily calculate these metrics.**
 
+***Shown below***: *Correlation between segmentation performance (IoU) and our proposed metrics for object tree-likeness (CPR and DoGD) and textural separability, for several segmentation foundation models, evaluated on the [DIS](https://github.com/xuebinqin/DIS) and [MOSE](https://github.com/henghuiding/MOSE-api) datasets.*
 <p align="center">
   <img src='https://github.com/mazurowski-lab/segmentation-metrics/blob/main/figs/corr.png' width='75%'>
 </p>
 
 ## Citation
 
-Please cite our paper if you use our code or reference our work:
+Please cite our WACV 2026 paper if you use our code or reference our work:
 ```bib
 @article{zhang2024texturalconfusion,
       title={Quantifying the Limits of Segmentation Foundation Models: Modeling Challenges in Segmenting Tree-Like and Low-Contrast Objects}, 
       author={Yixin Zhang and Nicholas Konz and Kevin Kramer and Maciej A. Mazurowski},
-      year={2024},
-      eprint={2412.04243},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
+      journal={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+      year={2026},
       url={https://arxiv.org/abs/2412.04243}, 
 }
 ```
