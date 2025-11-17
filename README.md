@@ -1,8 +1,8 @@
 # [WACV 2026] Quantifying Challenging Objects for Semantic Segmentation
-### NEWS: 🎉 Our paper has been accepted to WACV 2026!
+### NEWS: 🎉 Our paper has been accepted to [WACV 2026](https://wacv.thecvf.com/)!
 
 #### By [Yixin Zhang*](https://scholar.google.com/citations?user=qElWNMwAAAAJ&hl=en). [Nicholas Konz*](https://nickk124.github.io/), Kevin Kramer, and [Maciej Mazurowski](https://sites.duke.edu/mazurowski/).
-**(*= equal contribution)**
+**equal contribution*
 
 arXiv paper link: [![arXiv Paper](https://img.shields.io/badge/arXiv-2412.04243-orange.svg?style=flat)](https://arxiv.org/abs/2412.04243)
 
